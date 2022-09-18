@@ -1,0 +1,24 @@
+{
+  "name": "taller",
+  "version": "1.0.0",
+  "description": "Taller - Construcción de APIs mediante las buenas prácticas (Trabajo en Casa)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alejo13702/SoftwareQuality-Alejo.git"
+  },
+  "keywords": [
+    "Calidad",
+    "Software",
+    "APIS"
+  ],
+  "author": "Alejandro Acosta Hernandez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alejo13702/SoftwareQuality-Alejo/issues"
+  },
+  "homepage": "https://github.com/Alejo13702/SoftwareQuality-Alejo#readme"
+}
