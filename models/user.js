@@ -2,10 +2,10 @@ const {DataTypes} = require('sequelize');
 const {db_connection} = require('../database/connection');
 
 //Reference Models - Foreign keys
-const {Company} = require('./company');
-const {Customer} = require('.customer');
+//const {Company} = require('./company');
+//const {Customer} = require('.customer');
 
-const User = db_connection.define('user',{
+const User = db_connection.define('User',{
     email: {
         type: DataTypes.STRING
     },
@@ -14,7 +14,7 @@ const User = db_connection.define('user',{
     },
     lastname: {
         type: DataTypes.STRING
-    },
+    }/*,
     status: {
         type: DataTypes.BOOLEAN        
     },
@@ -33,10 +33,10 @@ const User = db_connection.define('user',{
             model: Company,
             key: 'id'
         }
-    }  
+    }  */
 },{
     freezeTableName: true,
-    tableName: 'user'
+    tableName: 'User'
 }
 
 );
