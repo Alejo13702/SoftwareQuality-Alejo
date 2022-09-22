@@ -16,6 +16,7 @@ app.all('*',function(req,res, next) {
 })
 
 app.use('/api/users', require('./routes/user'));
+app.use('/api/company', require('./routes/company'));
 
 try{
   const db_status = db_connection.authenticate();

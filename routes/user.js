@@ -8,6 +8,10 @@ const{
     postSpecificCustomers
 } = require('../controllers/user');
 
+/*const{
+    getSpecificCompany
+} =('../controllers/company');*/
+
 //Initializing
 const router = express.Router();
 

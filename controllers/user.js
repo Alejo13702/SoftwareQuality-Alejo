@@ -1,5 +1,5 @@
 //Import
-const SERVER_ERROR = "Error en el server";
+const{SERVER_ERROR} = require('../utils/error');
 //const{Company} = require('../models/company');
 //const{Customer} = require(',,/models/customer');
 const{User} = require('../models/user');
